@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    @apply text-white bg-[#25272E];
+    @apply text-white bg-[#25272E] pb-[250px];
 }
 
 /* header start */
@@ -53,4 +53,8 @@ ul.navbar-nav > li > a {
     grid-template-areas: 
         "navbarBrand navbarNav userAction";
     grid-template-columns: auto 1fr auto;
+}
+
+.swiper {
+    @apply overflow-visible;
 }
