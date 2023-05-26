@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- burger menu -->
     <link rel="stylesheet" href="./assets/burger.css">
+    <!-- swiper js -->
+    <link rel="stylesheet" href="./assets/plugins/swiper/swiper-bundle.min.css">
 
     <!-- tailwind -->
     <link rel="stylesheet" href="./assets/style.css">
@@ -46,27 +48,157 @@
         </div>
     </header>
 
-    <section class="hero-banner">
+    <section class="hero-banner mb-[160px]">
         <div class="container">
-            <div class="grid grid-cols-12 gap-[21px]">
+            <div class="grid grid-cols-12 gap-[21px] items-center">
                 <div class="col-span-12 md:col-span-6">
                     <p class="text-[#FD7E41] text-[20px] font-semibold mb-[30px] leading-[15px]">Welcome to Foodhub</p>
-                    <h3 class="text-[90px] font-bold mb-[30px] leading-[104px]">
+                    <h3 class="text-[44px] lg:text-[90px] font-bold mb-[30px] lg:leading-[104px]">
                         Enjoy Healthy
                         & Tasty Food
                     </h3>
-                    <p>
+                    <p class="text-[#A7A9BE] text-xl mb-8 lg:mb-[50px]">
                         Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.
                     </p>
+                    <a href="#" class="inline-block text-[#FCC232] py-[24px]  px-[60px] bg-[#3C3F4A] rounded-[50px] font-bold">Explore Menu</a>
                 </div>
                 <div class="col-span-12 md:col-span-6">
-                    test
+                    <img src="./assets/images/hero-image.png" alt="...">
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="features mb-[50px] lg:mb-[160px]">
+        <div class="container">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-y-[100px] lg:gap-[87px] text-center text-[36px] font-semibold">
+                <div class="bg-[#3C3F4A] rounded-[30px] pb-[51px]">
+                    <div class="w-[148px] h-[148px] bg-white rounded-full flex items-center justify-center mx-auto -translate-y-1/2 -mb-[36px]">
+                        <img src="./assets/images/feature-1.svg" alt="...">
+                    </div>
+                    <p>Online Food Sell</p>
+                </div>
+                <div class="bg-[#3C3F4A] rounded-[30px] pb-[51px]">
+                    <div class="w-[148px] h-[148px] bg-white rounded-full flex items-center justify-center mx-auto -translate-y-1/2 -mb-[36px]">
+                        <img src="./assets/images/feature-2.svg" alt="...">
+                    </div>
+                    <p>Delivery Service</p>
+                </div>
+                <div class="bg-[#3C3F4A] rounded-[30px] pb-[51px]">
+                    <div class="w-[148px] h-[148px] bg-white rounded-full flex items-center justify-center mx-auto -translate-y-1/2 -mb-[36px]">
+                        <img src="./assets/images/feature-3.svg" alt="...">
+                    </div>
+                    <p>Catering Service</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container mb-[30px]">
+        <div class="grid grid-cols-12 gap-[21px] items-center">
+            <div class="col-span-12 md:col-span-5">
+                <img src="./assets/images/meal.png" alt="..." class="mx-auto lg:mx-0">
+            </div>
+            <div class="col-span-12 md:col-start-7">
+                <h4 class="font-bold text-[40px] lg:text-[58px] lg:leading-[68px] mb-[30px]">
+                    Serving Best Food is Our First Priority
+                </h4>
+                <p class="text-[#A7A9BE] text-[20px] leading-[32px] mb-[50px]">
+                    nutrients used in the body of an organism to sustain growth and vital processes and to furnish energy. The absorption and utilization of food by the body is fundamental to nutrition and is facilitated by digestion
+                </p>
+                <a href="#" class="text-[#25272E] text-[20px] leading-[32px] font-bold bg-[#FCC232] inline-block py-[20px] px-[44px] rounded-[50px]">
+                    Learn About Us
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container"> 
+        <h6 class="font-bold text-[35px] lg:text-[58px] lg:leading-[68px] mb-[50px]">We Offer People <br>
+            Many Type of Food</h6>
+
+        
+        <div class="ps-10 lg:-ms-10 pt-[90px] overflow-x-hidden">
+            <div class="myswiper swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="bg-[#3C3F4A] p-[30px] rounded-[30px] relative hover:bg-[#DFDDDD] hover:text-black">
+                            <img class="absolute -top-[150px] -left-[100px]" src="./assets/images/meal-1.png" alt="...">
+                            <div class="flex justify-end mb-[51px]">
+                                <div>
+                                    <div class="rating flex justify-end mb-3">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                    </div>
+                                    <p>140+ Items Availble</p>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h6 class="text-[28px] font-semibold mb-[30px]">Inter/Continental Food</h6>
+                                <p class="text-[18px] leading-[28px]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-[#3C3F4A] p-[30px] rounded-[30px] relative hover:bg-[#DFDDDD] hover:text-black">
+                            <img class="absolute -top-[150px] -left-[100px]" src="./assets/images/meal-2.png" alt="...">
+                            <div class="flex justify-end mb-[51px]">
+                                <div>
+                                    <div class="rating flex justify-end mb-3">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                    </div>
+                                    <p>140+ Items Availble</p>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h6 class="text-[28px] font-semibold mb-[30px]">Inter/Continental Food</h6>
+                                <p class="text-[18px] leading-[28px]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-[#3C3F4A] p-[30px] rounded-[30px] relative hover:bg-[#DFDDDD] hover:text-black">
+                            <img class="absolute -top-[150px] -left-[100px]" src="./assets/images/meal-3.png" alt="...">
+                            <div class="flex justify-end mb-[51px]">
+                                <div>
+                                    <div class="rating flex justify-end mb-3">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                        <img src="./assets/images/star.svg" alt="...">
+                                    </div>
+                                    <p>140+ Items Availble</p>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h6 class="text-[28px] font-semibold mb-[30px]">Inter/Continental Food</h6>
+                                <p class="text-[18px] leading-[28px]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </section>
+
 </body>
+
+<!-- swiper js -->
+<script src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
 
 <script src="./assets/main.js"></script>
 
