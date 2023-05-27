@@ -6,12 +6,15 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    @apply text-white bg-[#25272E] pb-[250px];
+    @apply text-white bg-[#25272E] overflow-x-hidden;
 }
 
 /* header start */
 .header {
     @apply mt-5 lg:mt-[68px] mb-10 lg:mb-[53px];
+}
+.header.is-pinned {
+    @apply py-3 bg-[#3C3F4A];
 }
 .navbar-brand {
     @apply sm:me-10 lg:me-[148px];
@@ -57,4 +60,15 @@ ul.navbar-nav > li > a {
 
 .swiper {
     @apply overflow-visible;
+}
+
+.social {
+    @apply flex;
+}
+.social li a{
+    @apply w-[48px] h-[48px] rounded-full bg-[#3C3F4A] flex items-center justify-center text-[#A7A9BE];
+}
+
+.social li a:hover {
+    @apply bg-[#FCC232] text-[#25272E];
 }

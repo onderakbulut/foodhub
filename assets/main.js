@@ -50,3 +50,23 @@ const swiper = new Swiper('.myswiper', {
 
     }
 });
+
+
+var containerEl = document.querySelector('.mixitup');
+var mixer = mixitup(containerEl, {
+    animation: {
+        effects: 'fade scale(0.5)'
+    },
+    selectors: {
+        target: '.mix',
+        control: '[data-mixitup-control]'
+    }
+});
+
+const el = document.querySelector("header")
+const observer = new IntersectionObserver( 
+  ([e]) => e.target.classList.toggle("is-pinned", e.intersectionRatio < 1),
+  { threshold: [1] }
+);
+
+observer.observe(el);
