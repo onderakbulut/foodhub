@@ -8,7 +8,7 @@ Tailwind foodhub landing page
 - Vanilla javascript
 
 ## Demo
-https://onderakbulut.com/preview/index.php?link=demo-8
+https://onderakbulut.com/demo-8/
 
 ## Screenshot
 ![](https://onderakbulut.com/demo-8/screenshot.jpg)
