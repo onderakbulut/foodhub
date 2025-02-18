@@ -9,4 +9,4 @@ Tailwind foodhub landing page
 
 ## Screenshot
 
-![screenshot](https://github.com/user-attachments/assets/decc9a3c-4436-49c3-a661-5de3665b2e59)
+![screenshot](https://github.com/user-attachments/assets/0e696238-66af-4866-8383-a774c0660890)
